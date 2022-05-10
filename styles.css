@@ -1,0 +1,13 @@
+#canvas {
+    width: 960px;
+    height: 960px;
+    background-color: darkgray;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(16, 6.25%);
+    grid-template-rows: repeat(auto-fill, 6.25%);
+}
+
+.pixel {
+    background-color: white;
+}
